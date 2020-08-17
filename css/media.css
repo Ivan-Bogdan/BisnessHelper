@@ -1,0 +1,176 @@
+/* -------- Медиа запросы -------- */
+/* 992-1200px lg  Large */
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1280px;
+  }
+  .trigger__desc {
+    width: 510px;
+  }
+}
+
+
+
+@media screen and (max-width: 991px) {
+  .man {
+    display: none;
+  }
+  .fon {
+    display: none;
+  }
+  .elips {
+    display: none;
+  }
+  .arka{
+      display: none;
+  }
+  .row .footer_text:nth-child(2) {
+    display: none;
+  }
+  .row .footer_text:nth-child(3) {
+    display: none;
+  }
+  .row .footer_text:nth-child(5) {
+    display: none;
+  }
+  .row .footer_text:nth-child(6) {
+    display: none;
+  }
+  .mh-logo {
+    font-size: 24px;
+  }
+  .bg{
+    height: 240px;
+  }
+}
+
+/* 768-992px md  Medium */
+@media screen and (max-width: 992px) {
+}
+
+/* 576-768px sm  Small */
+@media screen and (max-width: 1200px) {
+  .header {
+    padding-top: 10px;
+  }
+
+  .header-col {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .mobile-container {
+    transition: all 0.5s ease-in;
+    position: absolute;
+  }
+  .display-none {
+    display: none;
+  }
+
+  nav ul li a {
+    padding: 15px;
+  }
+
+  .menu > ul {
+    flex-direction: column;
+    display: block;
+    background-color: #6bbe5a;
+  }
+
+  .menu ul li > ul li a {
+    background: #59585c;
+  }
+
+  .menu ul li > ul {
+    position: flex;
+  }
+
+  .menu ul li > ul li > ul {
+    position: relative;
+    top: none;
+    left: 0;
+  }
+
+  .menu ul li > ul li > ul li a {
+    background: #828185;
+  }
+
+  .menu {
+    order: 2;
+    width: 100%;
+  }
+
+  .log {
+    order: 1;
+    width: 50%;
+  }
+
+  .log a {
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+  }
+
+  .menu-icon-wrapper {
+    display: inline-block;
+  }
+
+  .container {
+    max-width: 992px;
+  }
+  .trigger__desc {
+    max-width: 400px;
+  }
+}
+
+/* 320-576px     Extra small */
+@media screen and (max-width: 1441px) {
+  .fon {
+    width: 583px;
+    height: 217px;
+    margin-left: -205px;
+    margin-top: 230px;
+  }
+  .man {
+    width: 311px;
+    height: 420px;
+    margin-top: 17px;
+  }
+
+  .elips {
+    margin-left: -370px;
+  }
+  .arka{
+      width: 718px;
+      height: 233px;
+      margin-left: -650px;
+      margin-top: 130px;
+  }
+
+  .bg{
+      height: 260px;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  
+  
+}
+
+@media (min-width: 992px) {
+  .col {
+    max-width: 33%;
+  }
+  .footer_text {
+    flex: 0 0 33%;
+  }
+  .col2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
